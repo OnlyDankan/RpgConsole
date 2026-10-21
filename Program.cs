@@ -11,6 +11,10 @@ namespace RpgConsole
 
             TutorialService tutorialService = new TutorialService();
 
+            Console.WriteLine("=====================");
+            Console.WriteLine("    DEAD CIRCUIT   ");
+            Console.WriteLine("=====================");
+
             Console.WriteLine("MENU PRINCIPAL");
             Console.WriteLine("1 - Começar");
             Console.Write("R: ");

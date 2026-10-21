@@ -1,0 +1,15 @@
+/Users/daniel/Documents/GitHub/RpgConsole/obj/Debug/net10.0/RpgConsole.GeneratedMSBuildEditorConfig.editorconfig
+/Users/daniel/Documents/GitHub/RpgConsole/obj/Debug/net10.0/RpgConsole.AssemblyInfoInputs.cache
+/Users/daniel/Documents/GitHub/RpgConsole/obj/Debug/net10.0/RpgConsole.AssemblyInfo.cs
+/Users/daniel/Documents/GitHub/RpgConsole/obj/Debug/net10.0/RpgConsole.csproj.CoreCompileInputs.cache
+/Users/daniel/Documents/GitHub/RpgConsole/obj/Debug/net10.0/RpgConsole.sourcelink.json
+/Users/daniel/Documents/GitHub/RpgConsole/bin/Debug/net10.0/RpgConsole
+/Users/daniel/Documents/GitHub/RpgConsole/bin/Debug/net10.0/RpgConsole.deps.json
+/Users/daniel/Documents/GitHub/RpgConsole/bin/Debug/net10.0/RpgConsole.runtimeconfig.json
+/Users/daniel/Documents/GitHub/RpgConsole/bin/Debug/net10.0/RpgConsole.dll
+/Users/daniel/Documents/GitHub/RpgConsole/bin/Debug/net10.0/RpgConsole.pdb
+/Users/daniel/Documents/GitHub/RpgConsole/obj/Debug/net10.0/RpgConsole.dll
+/Users/daniel/Documents/GitHub/RpgConsole/obj/Debug/net10.0/refint/RpgConsole.dll
+/Users/daniel/Documents/GitHub/RpgConsole/obj/Debug/net10.0/RpgConsole.pdb
+/Users/daniel/Documents/GitHub/RpgConsole/obj/Debug/net10.0/RpgConsole.genruntimeconfig.cache
+/Users/daniel/Documents/GitHub/RpgConsole/obj/Debug/net10.0/ref/RpgConsole.dll

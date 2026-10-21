@@ -1,26 +1,44 @@
 ﻿using System;
+using System.Diagnostics;
+using Tutorials.Service;
 
-
-Console.WriteLine("MENU PRINCIPAL");
-Console.WriteLine("1 - Começar");
-
-int opcao = int.Parse(Console.ReadLine() ?? "");
-
-switch (opcao)
+namespace RpgConsole
 {
-    case 1: 
-        Console.WriteLine("Deseja ver o tutorial? S/N" );
-        string tutorial = Console.ReadLine() ?? "";
+    class Program
+    {
+        static void Main(string[] args)
+        {
 
-    while (true) {
-        if (tutorial == "S")
-        {
-            Console.WriteLine("");
-        } else if (tutorial == "N") 
-        {
-          break;
+            TutorialService tutorialService = new TutorialService();
+
+            Console.WriteLine("MENU PRINCIPAL");
+            Console.WriteLine("1 - Começar");
+            Console.Writes("R: ");
+
+            int opcaoMenu = int.Parse(Console.ReadLine() ?? "");
+
+            switch (opcaoMenu)
+            {
+                case 1:
+                    Console.WriteLine("Deseja ver o tutorial antes de começar?");
+                    Console.Write("S/N: ");
+                    string tutorial = Console.ReadLine() ?? "";
+
+                    if (tutorial == "S")
+                    {
+                        tutorialService.FirstTutorial();
+                    } else if (tutorial == "N")
+                    {
+                        
+                    } else
+                    {
+                        Console.WriteLine("Resposta inválida, tente novamente.");
+                        break;
+                    }
+
+
+                break;
+            }
         }
-
-    }    
-    break;
+    }
 }

@@ -13,7 +13,7 @@ namespace RpgConsole
 
             Console.WriteLine("MENU PRINCIPAL");
             Console.WriteLine("1 - Começar");
-            Console.Writes("R: ");
+            Console.Write("R: ");
 
             int opcaoMenu = int.Parse(Console.ReadLine() ?? "");
 

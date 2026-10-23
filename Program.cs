@@ -6,24 +6,54 @@ namespace RpgConsole
 {
     class Program
     {
+        
         static void Main(string[] args)
         {
-
-            TutorialService tutorialService = new TutorialService();
 
             Console.WriteLine("=====================");
             Console.WriteLine("    DEAD CIRCUIT   ");
             Console.WriteLine("=====================");
 
-            Console.WriteLine("MENU PRINCIPAL");
-            Console.WriteLine("1 - Começar");
-            Console.Write("R: ");
+            Console.WriteLine("Seja bem-vindo(a) ao Dead Circuit");
+            Console.WriteLine("Qual é o seu nome, parceiro? ");
+            Console.Write("Nome: ");
+            string nome = Console.ReadLine() ?? "Viajante";
+            Console.WriteLine("Aperte qualquer tecla para continuar");
+            Console.ReadKey();
 
-            int opcaoMenu = int.Parse(Console.ReadLine() ?? "");
+            MenuPrincipal();
 
-            switch (opcaoMenu)
+        }
+
+        static void MenuPrincipal()
+
+        {
+            TutorialService tutorialService = new TutorialService();
+
+            bool jogando = true;
+
+            while (jogando) 
             {
-                case 1:
+
+                Console.WriteLine("MENU PRINCIPAL");
+                Console.WriteLine("1 - Explorar");
+                Console.WriteLine("2 - Ver personagem");
+                Console.WriteLine("3 - Controles");
+                Console.Write("R: ");
+
+                int opcaoMenu = int.Parse(Console.ReadLine() ?? "");
+
+                switch (opcaoMenu)
+                {
+                    case 1:
+                    break;
+
+
+
+                    case 2:
+
+                    break;
+                    case 3:
                     Console.WriteLine("Deseja ver o tutorial antes de começar?");
                     Console.Write("S/N: ");
                     string tutorial = Console.ReadLine() ?? "";
@@ -41,8 +71,9 @@ namespace RpgConsole
                     }
 
 
-                break;
-            }
+                    break;
+                }
+            } 
         }
     }
 }

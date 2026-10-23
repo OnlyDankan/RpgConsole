@@ -46,6 +46,7 @@ namespace RpgConsole
                 switch (opcaoMenu)
                 {
                     case 1:
+
                     break;
 
 
@@ -54,22 +55,10 @@ namespace RpgConsole
 
                     break;
                     case 3:
-                    Console.WriteLine("Deseja ver o tutorial antes de começar?");
-                    Console.Write("S/N: ");
-                    string tutorial = Console.ReadLine() ?? "";
+                    Console.WriteLine("=== CONTROLES ====");
 
-                    if (tutorial == "S")
-                    {
-                        tutorialService.FirstTutorial();
-                    } else if (tutorial == "N")
-                    {
-                        
-                    } else
-                    {
-                        Console.WriteLine("Resposta inválida, tente novamente.");
-                        break;
-                    }
-
+                    tutorialService.FirstTutorial();
+                  
 
                     break;
                 }

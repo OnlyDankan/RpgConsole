@@ -18,6 +18,7 @@ namespace RpgConsole
             Console.WriteLine("Qual é o seu nome, parceiro? ");
             Console.Write("Nome: ");
             string nome = Console.ReadLine() ?? "Viajante";
+            Console.WriteLine($"Seja bem-vindo(a), {nome}");
             Console.WriteLine("Aperte qualquer tecla para continuar");
             Console.ReadKey();
 
